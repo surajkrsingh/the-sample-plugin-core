@@ -74,6 +74,10 @@ register_deactivation_hook( __FILE__, 'thesampleplugincore_deactivate' );
  */
 function thesampleplugincore_init() {
 
+	if ( class_exists( 'TheSamplePluginCore\Classes\Plugin' ) ) {
+		TheSamplePluginCore\Classes\Plugin::get_instance();
+	}
+
 	do_action( 'thesampleplugincore_init' );
 }
 

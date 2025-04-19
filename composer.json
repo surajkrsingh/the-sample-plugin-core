@@ -20,8 +20,7 @@
     "autoload": {
         "classmap": [
             "includes/classes/",
-            "includes/traits/",
-            "includes/classes/admin/"
+            "includes/traits/"
         ],
         "files": [
             "includes/helpers/custom-functions.php"

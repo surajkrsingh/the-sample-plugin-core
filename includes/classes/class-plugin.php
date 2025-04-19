@@ -26,7 +26,7 @@ use TheSamplePluginCore\Classes\Admin;
  * @subpackage TheSamplePluginCore/includes
  * @author     The Sample Plugin
  */
-final class TheSamplePluginCore {
+final class Plugin {
 
 	use Singleton;
 
