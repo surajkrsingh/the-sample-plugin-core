@@ -1,0 +1,84 @@
+# Git
+.git
+.github
+.gitignore
+.gitattributes
+
+# Development files
+.distignore
+.editorconfig
+.eslintrc
+.eslintignore
+.stylelintrc
+.stylelintignore
+.prettierrc
+.prettierignore
+.babelrc
+.nvmrc
+.npmrc
+.travis.yml
+.gitlab-ci.yml
+.circleci
+.husky
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Package management
+node_modules
+package-lock.json
+package.json
+composer.json
+composer.lock
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Build tools and config
+webpack.config.js
+gulpfile.js
+Gruntfile.js
+rollup.config.js
+tsconfig.json
+postcss.config.js
+babel.config.js
+phpcs.xml
+phpunit.xml
+phpstan.neon
+psalm.xml
+
+# Documentation and tests
+CHANGELOG.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+docs
+tests
+phpunit
+__tests__
+coverage
+.wordpress-org
+
+# Scripts
+scripts
+bin
+tools
+
+# Misc
+*.zip
+*.tar.gz
+*.log
+*.sql
+*.swp
+*.swo
+.env
+.env.*
+
+# New additions
+src
+README.md
+.cursorrules
+.cursorignore
+.cursor/
+.cursor/rules/
+phpcs.xml.dist
